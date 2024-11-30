@@ -1,0 +1,30 @@
+{
+    "name": "mr1970/setting",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mr 1970",
+            "email": "mrepoch1970@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Setting\\": "",
+            "Modules\\Setting\\App\\": "app/",
+            "Modules\\Setting\\Database\\Factories\\": "database/factories/",
+            "Modules\\Setting\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Setting\\Tests\\": "tests/"
+        }
+    }
+}

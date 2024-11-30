@@ -1,0 +1,30 @@
+{
+    "name": "mr1970/seomanager",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mr 1970",
+            "email": "mrepoch1970@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SEOManager\\": "",
+            "Modules\\SEOManager\\App\\": "app/",
+            "Modules\\SEOManager\\Database\\Factories\\": "database/factories/",
+            "Modules\\SEOManager\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\SEOManager\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "mr1970/role",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mr 1970",
+            "email": "mrepoch1970@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Role\\": "",
+            "Modules\\Role\\App\\": "app/",
+            "Modules\\Role\\Database\\Factories\\": "database/factories/",
+            "Modules\\Role\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Role\\Tests\\": "tests/"
+        }
+    }
+}

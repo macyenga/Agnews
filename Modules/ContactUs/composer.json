@@ -1,0 +1,30 @@
+{
+    "name": "mr1970/contactus",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mr 1970",
+            "email": "mrepoch1970@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ContactUs\\": "",
+            "Modules\\ContactUs\\App\\": "app/",
+            "Modules\\ContactUs\\Database\\Factories\\": "database/factories/",
+            "Modules\\ContactUs\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ContactUs\\Tests\\": "tests/"
+        }
+    }
+}

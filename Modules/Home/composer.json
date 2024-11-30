@@ -1,0 +1,30 @@
+{
+    "name": "mr1970/home",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mr 1970",
+            "email": "mrepoch1970@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Home\\": "",
+            "Modules\\Home\\App\\": "app/",
+            "Modules\\Home\\Database\\Factories\\": "database/factories/",
+            "Modules\\Home\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Home\\Tests\\": "tests/"
+        }
+    }
+}

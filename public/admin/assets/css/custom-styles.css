@@ -1,0 +1,59 @@
+th, .reply, .status, .subscribed-at {
+    white-space: nowrap;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.table-responsive {
+    overflow-x: auto !important;
+}
+
+.min-w-10 {
+    min-width: 10rem;
+}
+
+.page-link {
+    text-align: center;
+}
+
+.btn-info {
+    background-color: #03a9f4 !important;
+}
+
+.search-form .input-group input, .search-form .input-group button {
+    height: 1.6rem !important;
+    font-size: .8rem !important;
+}
+
+.portlet-title .title {
+    white-space: nowrap;
+}
+
+.swal2-container * {
+    font-family: 'IranSans', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .suggest-default-value {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .portlet-title {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: .5rem;
+        align-items: flex-start;
+    }
+
+    .portlet-title .title {
+        margin: 0;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+}
