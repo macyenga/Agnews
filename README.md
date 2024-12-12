@@ -441,6 +441,3 @@ The News Portal project is open-source software licensed under the MIT license. 
 ---
 
 Thank you for using News Portal! If you have any questions or need further assistance, please feel free to contact us.
-"# Agnews" 
-#   A g n e w s  
- 
