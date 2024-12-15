@@ -11,9 +11,6 @@
         "vite": "^5.1.7"
     },
     "dependencies": {
-        "bootstrap": "^5.3.3",
-        "jquery": "^3.7.1",
-        "popper.js": "^1.16.1",
         "shiki": "^1.4.0"
     }
 }
