@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'liked' => 'خبر با موفقیت لایک شد.',
-    'unliked' => 'لایک خبر با موفقیت برداشته شد.',
+    'liked' => 'The post was successfully liked.',
+    'unliked' => 'The like was successfully removed from the post.',
 ];

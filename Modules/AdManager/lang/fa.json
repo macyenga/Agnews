@@ -1,9 +1,9 @@
 {
-    "header": "هدر",
-    "first_sidebar": "سایدبار اول",
-    "second_sidebar": "سایدبار دوم",
-    "first_section": "بخش اول",
-    "second_section": "بخش دوم",
-    "third_section": "بخش سوم",
-    "fourth_section": "بخش چهارم"
+    "header": "Header",
+    "first_sidebar": "First Sidebar",
+    "second_sidebar": "Second Sidebar",
+    "first_section": "First Section",
+    "second_section": "Second Section",
+    "third_section": "Third Section",
+    "fourth_section": "Fourth Section"
 }

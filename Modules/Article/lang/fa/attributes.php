@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'type' => 'نوع محتوا',
+'type' => 'Content Type',
 ];

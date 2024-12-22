@@ -14,7 +14,7 @@
             .create(document.querySelector('#editor'), {
                 extraPlugins: [CustomUploadAdapterPlugin],
                 language: 'fa',
-                direction: 'rtl',
+                direction: 'ltr',
                 fontFamily: {
                     'default': 'IranSans, Arial, sans-serif',
                 },

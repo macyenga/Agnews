@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="utf-8">
@@ -43,8 +43,8 @@
                     <i class="@yield('pageIcon') border img-circle font-xxxlg p-20"></i>
                 </p>
                 <h1 class="page-error m-t-30">
-                    <sup>خطای</sup>
-                    @yield('code')
+                <sup>Error</sup>
+                @yield('code')
                 </h1>
                 <p class="text-center font-lg m-b-20">@yield('message')</p>
 
@@ -63,7 +63,8 @@
 
                 <hr class="m-b-30 m-t-30">
                 <a href="{{ route('home.index') }}" class="btn btn-default btn-block">
-                    بازگشت
+                Return
+
                     <i class="icon-arrow-left font-lg"></i>
                 </a>
 

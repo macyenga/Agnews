@@ -3,6 +3,6 @@
 use Modules\Article\App\Models\Article;
 
 return [
-    Article::ARTICLE => 'مقاله',
-    Article::NEWS => 'خبر',
+    Article::ARTICLE => 'Article',
+    Article::NEWS => 'the news',
 ];
